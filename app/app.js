@@ -24,6 +24,13 @@
                 controller: 'Account.IndexController',
                 controllerAs: 'vm',
                 data: { activeTab: 'account' }
+            })
+            .state('non-sos',{
+                url: '/non-sos',
+                templateUrl: 'non-sos/index.html',
+                controller: 'Non-sos.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'non-sos' }
             });
     }
 

@@ -26,8 +26,8 @@ router.post('/', function (req, res) {
                 username: req.body.username,
                 roomnum: req.body.roomnum,
                 floor: req.body.floor,
-                // emergency: req.body.emergency,
-                // comment: req.body.comment
+                emergency: req.body.emergency,
+                comment: req.body.comment
             });
         }
 

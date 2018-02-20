@@ -1,5 +1,16 @@
 ﻿body {
-    padding: 20px 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    
+    
+} 
+.form-container {
+    width: 400px;
+    margin: auto;
+
 }
 
 .flash-message {
